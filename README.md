@@ -4,6 +4,8 @@ You can easily run program by executing main method in Main class.
 
 You need to edit defaultPath property or pass path as parameter in case of run from console.
 
+Path to file have to be absolute.
+
 #### About program
 Firstly it was dijkstra algorithm which was improved to A* search.
 

@@ -6,7 +6,7 @@ import main.java.dejikstra.utils.FileReadUtils;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String defaultPath = "/home/overenka/IdeaProjects/MyDikstra/src/main/resources/test.txt";
+        String defaultPath = "{YOUR_PATH}" + "/src/main/resources/test.txt";
         String filePath = args.length > 1 ? args[0] : defaultPath;
         char[][] grid = FileReadUtils.readFileToGrid(filePath);
         Dijkstra dijkstra = new Dijkstra();
